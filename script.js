@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let validIIN = validateIin(val);
         let validBIN = validateBin(val);
         
-        if(validIIN && validBIN && val.length>=12) {
+        if(validIIN && validBIN) {
             document.getElementById("iinBinError").textContent = 'Введите корректное значение';
         } else{
             document.getElementById("iinBinError").textContent = "";
