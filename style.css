@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+label{
+  box-sizing: border-box;
+}
+#name-block{
+  display: none;
+}
+
+.form-container{
+  width: 50%;
+  margin: auto;
+}
+
+.err-msg{
+  color: #f40b0b;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.bin-name-msg{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}

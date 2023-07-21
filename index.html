@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--Validation of IIN, BIN Pur JS-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign up</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="form-container">
+    <form>
+      <div>
+        <label for="iinBin">ИИН/БИН организации</label><br>
+        <input type="text" id="iinBin" name="iinBin"></input><br>
+        <label id="iinBinError" class="err-msg"></label>
+        <label id="binName" class="bin-name-msg"></label>
+      </div>
+      <div id="name-block">
+        <label for="name">Фамилия Имя</label><br>
+        <input type="text" id="name" name="fullname"></input><br>
+        <label id="nameError" class="err-msg"></label>
+      </div>
+      <div>
+        <input type="submit" value="Register">	
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
